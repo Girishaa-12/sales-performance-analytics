@@ -1,0 +1,231 @@
+# 📊 Sales Performance Analytics Dashboard
+
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+</p>
+
+<p align="center">
+  <b>🚀 Interactive Sales Analytics • 📈 Business Insights • 💡 Data-Driven Decisions</b>
+</p>
+
+---
+
+## 🌟 About the Project
+
+**Sales Performance Analytics Dashboard** is an intermediate-level Data Analytics project built using **Python, Pandas, NumPy, MySQL, Plotly, and Streamlit**.
+
+It transforms sales data into an interactive dashboard to analyze:
+
+📈 Sales & Profit  
+📦 Products  
+👥 Customers  
+🌍 Regions  
+🏷️ Categories  
+💰 Discounts  
+📊 Business KPIs  
+
+---
+
+## 🎯 Project Objectives
+
+| 🎯 Objective | 📌 Description |
+|---|---|
+| 📈 Sales Analysis | Identify sales trends and growth |
+| 💰 Profit Analysis | Analyze profitability and margins |
+| 📦 Product Analysis | Find top & low-performing products |
+| 🌍 Regional Analysis | Compare regional performance |
+| 👥 Customer Analysis | Identify valuable customers |
+| 🏷️ Category Analysis | Compare category performance |
+| 💡 Business Insights | Generate data-driven insights |
+
+---
+
+## 🚀 Key Features
+
+✨ **Interactive Filters**
+
+- 📅 Date Range
+- 🌍 Region
+- 📍 State
+- 🏷️ Category
+- 📦 Product
+- 💳 Payment Mode
+
+### 📊 KPI Cards
+
+💰 Total Sales  
+📈 Total Profit  
+🧾 Total Orders  
+📦 Quantity Sold  
+💵 Average Order Value  
+📊 Profit Margin  
+
+### 📈 Interactive Visualizations
+
+- 📈 Monthly Sales Trend
+- 💰 Monthly Profit Trend
+- 🌍 Sales by Region
+- 🏷️ Sales by Category
+- 📦 Top 10 Products
+- 🏆 Top Profitable Products
+- 📉 Bottom Performing Products
+- 👥 Customer Analysis
+- 🎯 Discount vs Profit
+- 📊 Sales vs Quantity
+
+---
+
+## 🧠 Data Analytics Workflow
+
+```text
+📂 Raw Sales Data
+       ↓
+🧹 Data Cleaning
+       ↓
+🔄 Data Transformation
+       ↓
+🧬 Feature Engineering
+       ↓
+🗄️ MySQL Database
+       ↓
+📊 SQL Analysis
+       ↓
+📈 Plotly Visualizations
+       ↓
+🖥️ Streamlit Dashboard
+       ↓
+💡 Business Insights
+🛠️ Technologies
+🛠️ Technology	💡 Usage
+🐍 Python	Data analysis
+🐼 Pandas	Data cleaning & manipulation
+🔢 NumPy	Numerical calculations
+🗄️ MySQL	Database & SQL analysis
+📊 Plotly	Interactive visualizations
+🎨 Streamlit	Interactive dashboard
+📑 Excel/CSV	Data source
+📁 Project Structure
+sales-performance-analytics/
+│
+├── 📄 app.py
+├── 📄 generate_dataset.py
+├── 📄 run_tests.py
+├── 📄 requirements.txt
+├── 📄 README.md
+│
+├── 📂 data/
+│   ├── raw_sales_data.csv
+│   └── sales_data.csv
+│
+├── 📂 database/
+│   ├── schema.sql
+│   └── analysis_queries.sql
+│
+├── 📂 src/
+│   ├── data_cleaning.py
+│   ├── data_analysis.py
+│   ├── database.py
+│   └── visualizations.py
+│
+├── 📂 notebooks/
+│   └── sales_analysis.ipynb
+│
+└── 📂 tests/
+    └── test_analytics.py
+⚙️ Installation
+1️⃣ Clone Repository
+git clone https://github.com/your-username/sales-performance-analytics.git
+cd sales-performance-analytics
+2️⃣ Create Virtual Environment
+python -m venv venv
+3️⃣ Activate Environment
+
+Windows:
+
+venv\Scripts\activate
+
+Mac/Linux:
+
+source venv/bin/activate
+4️⃣ Install Dependencies
+pip install -r requirements.txt
+📊 Generate Dataset
+python generate_dataset.py
+🗄️ MySQL Setup
+
+Configure your MySQL credentials in .env.
+
+Then run:
+
+python -c "from src.database import init_database, load_csv_to_mysql; init_database(); load_csv_to_mysql()"
+▶️ Run Dashboard
+streamlit run app.py
+
+🌐 Open in your browser:
+
+http://localhost:8501
+🧪 Run Tests
+python run_tests.py
+
+Or:
+
+pytest -v tests/test_analytics.py
+💡 Business Insights
+
+The dashboard dynamically identifies:
+
+🏆 Best-performing region
+📦 Top-selling products
+💰 Most profitable products
+🏷️ Best-performing categories
+📉 Low-performing products
+📈 Sales growth
+💹 Profit margin
+🎯 Discount impact
+
+⚠️ Limitations
+
+🔹 Dataset is synthetic
+🔹 Pricing and costs are simulated
+🔹 MySQL can be used optionally with CSV fallback
+
+🔮 Future Enhancements
+🔮 Sales forecasting
+👥 RFM customer segmentation
+📧 Automated business alerts
+☁️ Cloud deployment
+📱 Mobile-friendly dashboard
+🎓 Skills Demonstrated
+🐍 Python
+🐼 Pandas
+🔢 NumPy
+🗄️ MySQL
+💻 SQL
+🧹 Data Cleaning
+🔄 Data Transformation
+📊 EDA
+📈 Data Visualization
+🎯 KPI Analysis
+🎨 Streamlit
+💡 Business Analytics
+⭐ Project Highlights
+
+🚀 Intermediate Data Analytics Project
+📊 Interactive Streamlit Dashboard
+🗄️ MySQL + SQL Analytics
+📈 Interactive Plotly Charts
+💡 Dynamic Business Insights
+🧹 Realistic Data Cleaning Workflow
+
+👩‍💻 Author
+
+Thangavalu Girisha
+
+🎓 B.Tech – Data Science
+📍 Visakhapatnam, India
